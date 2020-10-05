@@ -1,7 +1,32 @@
-# Assignment 1.1 Create an XML
-# Eoin Lees
 
-#Create an XML file that stores data for a library. 
-#The library has two catalogues (technical books, and for cookery books).
-#Each catalogue can contain a number of books (say 2 for the purpose of this exercise) . 
-#Books will have an ISBN, title and author.
+
+
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<Library>
+
+    <book Catalog="technical-books"> 
+        <ISBN>123456</ISBN> 
+        <title>The big book</title> 
+        <author>&lt is an example of encoding</author> 
+    </book>
+
+    <book Catalog="technical-books"> 
+        <ISBN>123456</ISBN> 
+        <title>The big book</title> 
+        <author>&lt is an example of encoding</author> 
+    </book>
+
+    <book Catalog="cookery-books"> 
+        <ISBN>123456</ISBN> 
+        <title>The big book</title> 
+        <author>&lt is an example of encoding</author> 
+    </book>
+    
+    <book Catalog="cookery-books"> 
+        <ISBN>123456</ISBN> 
+        <title>The big book</title> 
+        <author>&lt is an example of encoding</author> 
+    </book>
+
+</Library>
